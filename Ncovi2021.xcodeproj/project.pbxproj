@@ -13,8 +13,6 @@
 		88AC77C52682EEBC007680F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AC77C32682EEBC007680F4 /* Main.storyboard */; };
 		88AC77C72682EEC8007680F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AC77C62682EEC8007680F4 /* Assets.xcassets */; };
 		88AC77CA2682EEC8007680F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AC77C82682EEC8007680F4 /* LaunchScreen.storyboard */; };
-		88AC77D52682EECA007680F4 /* Ncovi2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC77D42682EECA007680F4 /* Ncovi2021Tests.swift */; };
-		88AC77E02682EECA007680F4 /* Ncovi2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC77DF2682EECA007680F4 /* Ncovi2021UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		88AC77C92682EEC8007680F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AC77CB2682EEC8007680F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AC77D02682EECA007680F4 /* Ncovi2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ncovi2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88AC77D42682EECA007680F4 /* Ncovi2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ncovi2021Tests.swift; sourceTree = "<group>"; };
-		88AC77D62682EECA007680F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AC77DB2682EECA007680F4 /* Ncovi2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ncovi2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88AC77DF2682EECA007680F4 /* Ncovi2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ncovi2021UITests.swift; sourceTree = "<group>"; };
-		88AC77E12682EECA007680F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				88AC77BC2682EEBC007680F4 /* Ncovi2021 */,
-				88AC77D32682EECA007680F4 /* Ncovi2021Tests */,
-				88AC77DE2682EECA007680F4 /* Ncovi2021UITests */,
 				88AC77BB2682EEBC007680F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				88AC77CB2682EEC8007680F4 /* Info.plist */,
 			);
 			path = Ncovi2021;
-			sourceTree = "<group>";
-		};
-		88AC77D32682EECA007680F4 /* Ncovi2021Tests */ = {
-			isa = PBXGroup;
-			children = (
-				88AC77D42682EECA007680F4 /* Ncovi2021Tests.swift */,
-				88AC77D62682EECA007680F4 /* Info.plist */,
-			);
-			path = Ncovi2021Tests;
-			sourceTree = "<group>";
-		};
-		88AC77DE2682EECA007680F4 /* Ncovi2021UITests */ = {
-			isa = PBXGroup;
-			children = (
-				88AC77DF2682EECA007680F4 /* Ncovi2021UITests.swift */,
-				88AC77E12682EECA007680F4 /* Info.plist */,
-			);
-			path = Ncovi2021UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AC77D52682EECA007680F4 /* Ncovi2021Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AC77E02682EECA007680F4 /* Ncovi2021UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
